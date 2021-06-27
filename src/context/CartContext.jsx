@@ -1,5 +1,6 @@
 import React, { createContext, useReducer } from 'react';
-import CartReducer, { sumItems } from './CartReducer';
+import CartReducer from './CartReducer';
+import { sumItems } from './CartReducer';
 
 export const CartContext = createContext(); //we create a context
 
